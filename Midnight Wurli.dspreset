@@ -49,10 +49,18 @@
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
         </option>
+        <option name="Japanese">
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="4.0"/>
+          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.41"/>
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_japanese.wav" />
+        </option>
         <option name="American">
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="10.0"/>
-          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.21"/>
+          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.20"/>
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_american.wav" />
@@ -60,23 +68,15 @@
         <option name="British">
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="11.0"/>
-          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.12"/>
+          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.10"/>
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_british.wav" />
         </option>
-        <option name="Japanese">
-          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="4.0"/>
-          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.43"/>
-          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
-          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_japanese.wav" />
-        </option>
         <option name="Norwegian">
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="15.0"/>
-          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.10"/>
+          <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.07"/>
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_norwegian.wav" />
