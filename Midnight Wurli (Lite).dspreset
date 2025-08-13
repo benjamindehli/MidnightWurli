@@ -514,7 +514,7 @@
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Mic_Hard_5B_01.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" ampEnvEnabled="false"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Mic_Hard_6C_01.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" ampEnvEnabled="false"/>
     </group>
-    <group tags="key-off-mic,release" trigger="release" seqMode="random" seqLength="9" ampEnvEnabled="false">
+    <group tags="key-off-mic,release" trigger="release" ampEnvEnabled="false">
       <effects>
         <effect type="gain" level="1" />
       </effects>
