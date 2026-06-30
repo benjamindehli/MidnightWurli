@@ -2,6 +2,7 @@
   "schema": 1,
   "format": "dmse-manifest",
   "library": "MidnightWurli",
+  "gainDb": -13.0,
   "modes": [
     {
       "name": "Midnight Wurli (Lite)",
@@ -32014,7 +32015,9 @@
           "type": "convolution",
           "enabled": true,
           "mix": 0.0,
-          "ir": "ir:echo"
+          "outputLevel": -10.0,
+          "ir": "ir:echo",
+          "normalizeIr": false
         },
         {
           "type": "wave_shaper",
@@ -32026,13 +32029,17 @@
           "type": "convolution",
           "enabled": false,
           "mix": 0.0,
-          "ir": "ir:amp_american"
+          "outputLevel": -10.0,
+          "ir": "ir:amp_american",
+          "normalizeIr": false
         },
         {
           "type": "convolution",
           "enabled": true,
           "mix": 0.0,
-          "ir": "ir:room"
+          "outputLevel": -10.0,
+          "ir": "ir:room",
+          "normalizeIr": false
         }
       ],
       "modulators": [
@@ -32463,23 +32470,254 @@
                 "options": [
                   {
                     "name": "Direct",
-                    "seqIndex": 0
+                    "seqIndex": 0,
+                    "bindings": [
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": false
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": false
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_MIX",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "position": 2,
+                        "translationValue": "0"
+                      }
+                    ]
                   },
                   {
                     "name": "Japanese",
-                    "seqIndex": 0
+                    "seqIndex": 0,
+                    "bindings": [
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": true
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_DRIVE",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": "4.0"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_OUTPUT_LEVEL",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": "0.41"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": true
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_MIX",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "position": 2,
+                        "translationValue": "1"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_IR_FILE",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": "ir:amp_japanese"
+                      }
+                    ]
                   },
                   {
                     "name": "American",
-                    "seqIndex": 0
+                    "seqIndex": 0,
+                    "bindings": [
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": true
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_DRIVE",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": "10.0"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_OUTPUT_LEVEL",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": "0.20"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": true
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_MIX",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "position": 2,
+                        "translationValue": "1"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_IR_FILE",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": "ir:amp_american"
+                      }
+                    ]
                   },
                   {
                     "name": "British",
-                    "seqIndex": 0
+                    "seqIndex": 0,
+                    "bindings": [
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": true
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_DRIVE",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": "11.0"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_OUTPUT_LEVEL",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": "0.10"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": true
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_MIX",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "position": 2,
+                        "translationValue": "1"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_IR_FILE",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": "ir:amp_british"
+                      }
+                    ]
                   },
                   {
                     "name": "Norwegian",
-                    "seqIndex": 0
+                    "seqIndex": 0,
+                    "bindings": [
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": true
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_DRIVE",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": "15.0"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_OUTPUT_LEVEL",
+                        "translation": "fixed_value",
+                        "effectIndex": 1,
+                        "translationValue": "0.07"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "ENABLED",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": true
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_MIX",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "position": 2,
+                        "translationValue": "1"
+                      },
+                      {
+                        "type": "effect",
+                        "level": "instrument",
+                        "parameter": "FX_IR_FILE",
+                        "translation": "fixed_value",
+                        "effectIndex": 2,
+                        "translationValue": "ir:amp_norwegian"
+                      }
+                    ]
                   }
                 ]
               }
