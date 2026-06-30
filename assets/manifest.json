@@ -5780,6 +5780,14 @@
           ]
         }
       ],
+      "ccBindings": [
+        {
+          "cc": 1,
+          "parameter": "MOD_AMOUNT",
+          "normMin": 0.0,
+          "normMax": 1.0
+        }
+      ],
       "ui": {
         "background": "img:background_lite",
         "width": 812,
@@ -32289,6 +32297,14 @@
               "position": 3
             }
           ]
+        }
+      ],
+      "ccBindings": [
+        {
+          "cc": 1,
+          "parameter": "MOD_AMOUNT",
+          "normMin": 0.0,
+          "normMax": 1.0
         }
       ],
       "ui": {
