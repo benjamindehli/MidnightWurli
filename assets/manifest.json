@@ -2017,6 +2017,13 @@
           ],
           "trigger": "release",
           "ampEnvEnabled": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Line_Hard_Release_0A_01",
@@ -4661,6 +4668,13 @@
           ],
           "trigger": "release",
           "ampEnvEnabled": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Mic_Hard_Release_0A_01",
@@ -5321,6 +5335,13 @@
           "release": 0.05,
           "ampEnvEnabled": true,
           "pitchKeyTrack": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Line_Damper_01",
@@ -5414,6 +5435,13 @@
           },
           "ampEnvEnabled": false,
           "pitchKeyTrack": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Line_Damper_Release_01",
@@ -5511,6 +5539,13 @@
           "release": 0.05,
           "ampEnvEnabled": true,
           "pitchKeyTrack": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Mic_Damper_01",
@@ -5604,6 +5639,13 @@
           },
           "ampEnvEnabled": false,
           "pitchKeyTrack": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Mic_Damper_Release_01",
@@ -12551,6 +12593,13 @@
             "length": 9
           },
           "ampEnvEnabled": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Line_Soft_Release_0A_01",
@@ -25402,6 +25451,13 @@
             "length": 9
           },
           "ampEnvEnabled": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Mic_Soft_Release_0A_01",
@@ -31758,6 +31814,13 @@
           "release": 0.05,
           "ampEnvEnabled": true,
           "pitchKeyTrack": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Line_Damper_01",
@@ -31851,6 +31914,13 @@
           },
           "ampEnvEnabled": false,
           "pitchKeyTrack": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Line_Damper_Release_01",
@@ -31948,6 +32018,13 @@
           "release": 0.05,
           "ampEnvEnabled": true,
           "pitchKeyTrack": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Mic_Damper_01",
@@ -32041,6 +32118,13 @@
           },
           "ampEnvEnabled": false,
           "pitchKeyTrack": false,
+          "effects": [
+            {
+              "type": "gain",
+              "enabled": true,
+              "gain": 1.0
+            }
+          ],
           "samples": [
             {
               "source": "flac:Mic_Damper_Release_01",
