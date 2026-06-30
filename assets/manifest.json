@@ -5329,7 +5329,9 @@
               "rootNote": 60,
               "lengthFrames": 479899,
               "pitchKeyTrack": false,
-              "seqPosition": 1
+              "seqPosition": 1,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_02",
@@ -5338,7 +5340,9 @@
               "rootNote": 60,
               "lengthFrames": 287899,
               "pitchKeyTrack": false,
-              "seqPosition": 2
+              "seqPosition": 2,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_03",
@@ -5347,7 +5351,9 @@
               "rootNote": 60,
               "lengthFrames": 479899,
               "pitchKeyTrack": false,
-              "seqPosition": 3
+              "seqPosition": 3,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_04",
@@ -5356,7 +5362,9 @@
               "rootNote": 60,
               "lengthFrames": 383899,
               "pitchKeyTrack": false,
-              "seqPosition": 4
+              "seqPosition": 4,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_05",
@@ -5365,7 +5373,9 @@
               "rootNote": 60,
               "lengthFrames": 287899,
               "pitchKeyTrack": false,
-              "seqPosition": 5
+              "seqPosition": 5,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_06",
@@ -5374,7 +5384,9 @@
               "rootNote": 60,
               "lengthFrames": 479899,
               "pitchKeyTrack": false,
-              "seqPosition": 6
+              "seqPosition": 6,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_07",
@@ -5383,7 +5395,9 @@
               "rootNote": 60,
               "lengthFrames": 287899,
               "pitchKeyTrack": false,
-              "seqPosition": 7
+              "seqPosition": 7,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             }
           ]
         },
@@ -5408,7 +5422,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 1
+              "seqPosition": 1,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_02",
@@ -5417,7 +5433,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 2
+              "seqPosition": 2,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_03",
@@ -5426,7 +5444,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 3
+              "seqPosition": 3,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_04",
@@ -5435,7 +5455,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 4
+              "seqPosition": 4,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_05",
@@ -5444,7 +5466,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 5
+              "seqPosition": 5,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_06",
@@ -5453,7 +5477,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 6
+              "seqPosition": 6,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_07",
@@ -5462,7 +5488,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 7
+              "seqPosition": 7,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             }
           ]
         },
@@ -5491,7 +5519,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 1
+              "seqPosition": 1,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_02",
@@ -5500,7 +5530,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 2
+              "seqPosition": 2,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_03",
@@ -5509,7 +5541,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 3
+              "seqPosition": 3,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_04",
@@ -5518,7 +5552,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 4
+              "seqPosition": 4,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_05",
@@ -5527,7 +5563,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 5
+              "seqPosition": 5,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_06",
@@ -5536,7 +5574,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 6
+              "seqPosition": 6,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_07",
@@ -5545,7 +5585,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 7
+              "seqPosition": 7,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             }
           ]
         },
@@ -5570,7 +5612,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 1
+              "seqPosition": 1,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_02",
@@ -5579,7 +5623,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 2
+              "seqPosition": 2,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_03",
@@ -5588,7 +5634,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 3
+              "seqPosition": 3,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_04",
@@ -5597,7 +5645,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 4
+              "seqPosition": 4,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_05",
@@ -5606,7 +5656,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 5
+              "seqPosition": 5,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_06",
@@ -5615,7 +5667,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 6
+              "seqPosition": 6,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_07",
@@ -5624,7 +5678,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 7
+              "seqPosition": 7,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             }
           ]
         }
@@ -31710,7 +31766,9 @@
               "rootNote": 60,
               "lengthFrames": 479899,
               "pitchKeyTrack": false,
-              "seqPosition": 1
+              "seqPosition": 1,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_02",
@@ -31719,7 +31777,9 @@
               "rootNote": 60,
               "lengthFrames": 287899,
               "pitchKeyTrack": false,
-              "seqPosition": 2
+              "seqPosition": 2,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_03",
@@ -31728,7 +31788,9 @@
               "rootNote": 60,
               "lengthFrames": 479899,
               "pitchKeyTrack": false,
-              "seqPosition": 3
+              "seqPosition": 3,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_04",
@@ -31737,7 +31799,9 @@
               "rootNote": 60,
               "lengthFrames": 383899,
               "pitchKeyTrack": false,
-              "seqPosition": 4
+              "seqPosition": 4,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_05",
@@ -31746,7 +31810,9 @@
               "rootNote": 60,
               "lengthFrames": 287899,
               "pitchKeyTrack": false,
-              "seqPosition": 5
+              "seqPosition": 5,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_06",
@@ -31755,7 +31821,9 @@
               "rootNote": 60,
               "lengthFrames": 479899,
               "pitchKeyTrack": false,
-              "seqPosition": 6
+              "seqPosition": 6,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Line_Damper_07",
@@ -31764,7 +31832,9 @@
               "rootNote": 60,
               "lengthFrames": 287899,
               "pitchKeyTrack": false,
-              "seqPosition": 7
+              "seqPosition": 7,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             }
           ]
         },
@@ -31789,7 +31859,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 1
+              "seqPosition": 1,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_02",
@@ -31798,7 +31870,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 2
+              "seqPosition": 2,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_03",
@@ -31807,7 +31881,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 3
+              "seqPosition": 3,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_04",
@@ -31816,7 +31892,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 4
+              "seqPosition": 4,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_05",
@@ -31825,7 +31903,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 5
+              "seqPosition": 5,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_06",
@@ -31834,7 +31914,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 6
+              "seqPosition": 6,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Line_Damper_Release_07",
@@ -31843,7 +31925,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 7
+              "seqPosition": 7,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             }
           ]
         },
@@ -31872,7 +31956,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 1
+              "seqPosition": 1,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_02",
@@ -31881,7 +31967,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 2
+              "seqPosition": 2,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_03",
@@ -31890,7 +31978,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 3
+              "seqPosition": 3,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_04",
@@ -31899,7 +31989,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 4
+              "seqPosition": 4,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_05",
@@ -31908,7 +32000,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 5
+              "seqPosition": 5,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_06",
@@ -31917,7 +32011,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 6
+              "seqPosition": 6,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             },
             {
               "source": "flac:Mic_Damper_07",
@@ -31926,7 +32022,9 @@
               "rootNote": 60,
               "lengthFrames": 191899,
               "pitchKeyTrack": false,
-              "seqPosition": 7
+              "seqPosition": 7,
+              "onLoCC64": 64,
+              "onHiCC64": 127
             }
           ]
         },
@@ -31951,7 +32049,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 1
+              "seqPosition": 1,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_02",
@@ -31960,7 +32060,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 2
+              "seqPosition": 2,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_03",
@@ -31969,7 +32071,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 3
+              "seqPosition": 3,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_04",
@@ -31978,7 +32082,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 4
+              "seqPosition": 4,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_05",
@@ -31987,7 +32093,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 5
+              "seqPosition": 5,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_06",
@@ -31996,7 +32104,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 6
+              "seqPosition": 6,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             },
             {
               "source": "flac:Mic_Damper_Release_07",
@@ -32005,7 +32115,9 @@
               "rootNote": 60,
               "lengthFrames": 47899,
               "pitchKeyTrack": false,
-              "seqPosition": 7
+              "seqPosition": 7,
+              "onLoCC64": 0,
+              "onHiCC64": 63
             }
           ]
         }
