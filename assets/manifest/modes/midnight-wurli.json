@@ -26860,19 +26860,9 @@
     "keyboard": {
       "colors": [
         {
-          "loNote": 0,
-          "hiNote": 32,
-          "color": "FF000000"
-        },
-        {
           "loNote": 33,
           "hiNote": 96,
-          "color": "FFFFFFFF"
-        },
-        {
-          "loNote": 37,
-          "hiNote": 127,
-          "color": "FF000000"
+          "color": "none"
         }
       ]
     }
