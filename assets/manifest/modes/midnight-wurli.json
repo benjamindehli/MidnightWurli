@@ -26232,6 +26232,7 @@
     "background": "img:background",
     "width": 812,
     "height": 423,
+    "cropTop": 42,
     "layoutMode": "relative",
     "bgMode": "top_left",
     "tabs": [
