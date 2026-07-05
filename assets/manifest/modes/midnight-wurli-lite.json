@@ -11,6 +11,7 @@
   },
   "groups": [
     {
+      "uid": "grp_0",
       "tags": [
         "key-on-line",
         "soft"
@@ -672,6 +673,7 @@
       ]
     },
     {
+      "uid": "grp_1",
       "tags": [
         "key-on-line",
         "medium"
@@ -1336,6 +1338,7 @@
       ]
     },
     {
+      "uid": "grp_2",
       "tags": [
         "key-on-line",
         "hard"
@@ -2005,6 +2008,7 @@
       ]
     },
     {
+      "uid": "grp_3",
       "tags": [
         "key-off-line",
         "release"
@@ -2662,6 +2666,7 @@
       ]
     },
     {
+      "uid": "grp_4",
       "tags": [
         "key-on-mic",
         "soft"
@@ -3323,6 +3328,7 @@
       ]
     },
     {
+      "uid": "grp_5",
       "tags": [
         "key-on-mic",
         "medium"
@@ -3987,6 +3993,7 @@
       ]
     },
     {
+      "uid": "grp_6",
       "tags": [
         "key-on-mic",
         "hard"
@@ -4656,6 +4663,7 @@
       ]
     },
     {
+      "uid": "grp_7",
       "tags": [
         "key-off-mic",
         "release"
@@ -5313,6 +5321,7 @@
       ]
     },
     {
+      "uid": "grp_8",
       "tags": [
         "damper-on-line"
       ],
@@ -5417,6 +5426,7 @@
       ]
     },
     {
+      "uid": "grp_9",
       "tags": [
         "damper-off-line"
       ],
@@ -5517,6 +5527,7 @@
       ]
     },
     {
+      "uid": "grp_10",
       "tags": [
         "damper-on-mic"
       ],
@@ -5621,6 +5632,7 @@
       ]
     },
     {
+      "uid": "grp_11",
       "tags": [
         "damper-off-mic"
       ],
@@ -5723,6 +5735,7 @@
   ],
   "modulators": [
     {
+      "id": "mod_0",
       "shape": "sine",
       "frequency": 5.69,
       "modAmount": 0.0,
@@ -5730,6 +5743,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_0",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -5741,6 +5755,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_1",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -5752,6 +5767,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_2",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -5763,6 +5779,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_3",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -5778,6 +5795,8 @@
     {
       "cc": 1,
       "parameter": "MOD_AMOUNT",
+      "targetId": "ctl_3",
+      "controlIndex": 3,
       "normMin": 0.0,
       "normMax": 1.0
     }
@@ -5794,6 +5813,7 @@
         "name": "main",
         "controls": [
           {
+            "id": "ctl_0",
             "rect": {
               "x": 88,
               "y": 122,
@@ -5813,6 +5833,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 0,
             "bindings": [
               {
                 "type": "amp",
@@ -5897,6 +5918,7 @@
             ]
           },
           {
+            "id": "ctl_1",
             "rect": {
               "x": 203,
               "y": 122,
@@ -5916,10 +5938,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 1,
             "bindings": [
               {
                 "type": "effect",
                 "level": "group",
+                "targetId": "grp_3",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
@@ -5932,6 +5956,7 @@
               {
                 "type": "effect",
                 "level": "group",
+                "targetId": "grp_7",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
@@ -5944,6 +5969,7 @@
             ]
           },
           {
+            "id": "ctl_2",
             "rect": {
               "x": 288,
               "y": 122,
@@ -5963,10 +5989,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 2,
             "bindings": [
               {
                 "type": "effect",
                 "level": "group",
+                "targetId": "grp_8",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
@@ -5979,6 +6007,7 @@
               {
                 "type": "effect",
                 "level": "group",
+                "targetId": "grp_9",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
@@ -5991,6 +6020,7 @@
               {
                 "type": "effect",
                 "level": "group",
+                "targetId": "grp_10",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
@@ -6003,6 +6033,7 @@
               {
                 "type": "effect",
                 "level": "group",
+                "targetId": "grp_11",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
@@ -6015,6 +6046,7 @@
             ]
           },
           {
+            "id": "ctl_3",
             "rect": {
               "x": 403,
               "y": 122,
@@ -6034,10 +6066,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 3,
             "bindings": [
               {
                 "type": "modulator",
                 "level": "instrument",
+                "targetId": "mod_0",
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
