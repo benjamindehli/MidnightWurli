@@ -1,0 +1,9 @@
+{
+    "gain": -13,
+    "normalizeIr": false,
+    "reverbGain": -10,
+    "cropTop": { "Midnight Wurli": 42, "Midnight Wurli (Lite)": 76 },
+    "keyboardColors": {
+        "default": [{ "loNote": 33, "hiNote": 96, "color": "none" }]
+    }
+}
