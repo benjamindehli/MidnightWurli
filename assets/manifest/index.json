@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "format": "dmse-manifest",
+  "library": "MidnightWurli",
+  "gainDb": -13.0,
+  "modes": [
+    "midnight-wurli-lite",
+    "midnight-wurli"
+  ]
+}
