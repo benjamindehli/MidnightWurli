@@ -47,14 +47,14 @@
         <option name="Direct">
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
         </option>
         <option name="Japanese">
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="4.0"/>
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.41"/>
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_japanese.wav" />
         </option>
         <option name="American">
@@ -62,7 +62,7 @@
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="10.0"/>
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.20"/>
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_american.wav" />
         </option>
         <option name="British">
@@ -70,7 +70,7 @@
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="11.0"/>
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.10"/>
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_british.wav" />
         </option>
         <option name="Norwegian">
@@ -78,19 +78,19 @@
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="fixed_value" translationValue="15.0"/>
           <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="fixed_value" translationValue="0.07"/>
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/amp_norwegian.wav" />
         </option>
       </menu>
 
       <!-- Echo -->
       <control x="363" y="171" width="62" height="62" parameterName="Echo mix" minValue="1" maxValue="10" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_fender.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+        <binding type="effect" level="instrument" effectIndex="0" parameter="FX_MIX" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
 
       <!-- Room -->
       <control x="441" y="171" width="62" height="62" parameterName="Room mix" minValue="1" maxValue="10" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_fender.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="3" parameter="FX_MIX" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+        <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
 
       <!-- Volume -->
