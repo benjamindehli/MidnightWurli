@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "format": "dmse-manifest",
-  "library": "MidnightWurli",
+  "library": "DecentSampler",
   "gainDb": -13.0,
   "modes": [
     "midnight-wurli-lite",

@@ -26539,7 +26539,6 @@
               "height": 62
             },
             "label": "Echo mix",
-            "valueType": "percent",
             "min": 1.0,
             "max": 10.0,
             "value": 1.0,
@@ -26561,8 +26560,7 @@
                 "translation": "linear",
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 1.0,
-                "effectIndex": 0,
-                "position": 0
+                "effectIndex": 0
               }
             ]
           },
@@ -26575,7 +26573,6 @@
               "height": 62
             },
             "label": "Room mix",
-            "valueType": "percent",
             "min": 1.0,
             "max": 10.0,
             "value": 1.0,
@@ -26597,8 +26594,7 @@
                 "translation": "linear",
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 1.0,
-                "effectIndex": 3,
-                "position": 3
+                "effectIndex": 3
               }
             ]
           },
@@ -26679,7 +26675,6 @@
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
                     "effectIndex": 2,
-                    "position": 2,
                     "translationValue": "0"
                   }
                 ]
@@ -26731,7 +26726,6 @@
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
                     "effectIndex": 2,
-                    "position": 2,
                     "translationValue": "1"
                   },
                   {
@@ -26792,7 +26786,6 @@
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
                     "effectIndex": 2,
-                    "position": 2,
                     "translationValue": "1"
                   },
                   {
@@ -26853,7 +26846,6 @@
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
                     "effectIndex": 2,
-                    "position": 2,
                     "translationValue": "1"
                   },
                   {
@@ -26914,7 +26906,6 @@
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
                     "effectIndex": 2,
-                    "position": 2,
                     "translationValue": "1"
                   },
                   {
