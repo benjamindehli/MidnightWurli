@@ -8,5 +8,5 @@
 dmse_add_plugin(MidnightWurli
     PRODUCT_NAME "MidnightWurli"
     PLUGIN_CODE  Mwur
-    VERSION      0.1.0
+    VERSION      2.0.0
 )
