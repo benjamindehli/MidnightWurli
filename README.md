@@ -1,14 +1,39 @@
-# Midnight Wurli - Version: [1.0]
+# Midnight Wurli
 
-Date: 2025-08-13
+Midnight Wurli is a sampled Wurlitzer 200A electric piano instrument that focuses on capturing the character of the instrument played softly at low volume. It uses two signal sources: the direct line out from the Wurlitzer and a contact microphone attached to the instrument. The contact microphone captures the mechanical noises, such as key clicks, release sounds, and pedal movements which results in a more intimate, close-up sound.
 
-Name: Benjamin Dehli
+The instrument includes both tonal samples and mechanical noise samples. It also features built-in effects including tremolo, tape echo, room reverb, and multiple amplifier impulse responses. Each key includes velocity-based round robins to enhance realism.
 
-Profile: [store.dehlimusikk.no][Gumroad profile]
+## Release notes
+
+### Version 2.0.0 (upcoming)
+
+- Added a plugin version. See the section "The plugin version".
+- Effect bindings now use effectIndex, and a misleading type="percent" attribute was removed.
+- Fixed the loNote value for the keyboard colors.
+
+### Version 1.0.0 (2025-08-13)
+
+- First version released.
 
 ## Included formats
 
+- VST3 (macOS, Windows and Linux)
+- AU (macOS)
+- Standalone application (macOS, Windows and Linux)
 - Decent Sampler
+
+## The plugin version
+
+The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+Only the samples for the selected preset are loaded into memory, and a fresh instance lets you choose which preset to load before anything is decoded.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
 
 ## Technical specification
 
@@ -17,12 +42,6 @@ Profile: [store.dehlimusikk.no][Gumroad profile]
 |                        **Samples** |      48 kHz |    24 bit | 1 (mono)   |            2332 |   1.20 GB |
 | **Impulse responses (Amplifiers)** |      48 kHz |    24 bit | 1 (mono)   |               4 | 356.00 KB |
 |    **Impulse responses (Effects)** |      48 kHz |    24 bit | 2 (stereo) |               2 | 481.00 KB |
-
-## Description
-
-Midnight Wurli is a sampled Wurlitzer 200A electric piano instrument that focuses on capturing the character of the instrument played softly at low volume. It uses two signal sources: the direct line out from the Wurlitzer and a contact microphone attached to the instrument. The contact microphone captures the mechanical noises, such as key clicks, release sounds, and pedal movements which results in a more intimate, close-up sound.
-
-The instrument includes both tonal samples and mechanical noise samples. It also features built-in effects including tremolo, tape echo, room reverb, and multiple amplifier impulse responses. Each key includes velocity-based round robins to enhance realism.
 
 ## Instrument Presets
 
@@ -145,6 +164,13 @@ The instrument includes both tonal samples and mechanical noise samples. It also
 |                           [Tandberg Model 2 T][Tandberg Model 2 T]                           |                           ![Tandberg Model 2 T](/Equipment/tandberg-model-2-t.jpg)                           |
 |                      [Fulltone Tube Tape Echo][Fulltone Tube Tape Echo]                      |                      ![Fulltone Tube Tape Echo](/Equipment/fulltone-tube-tape-echo.jpg)                      |
 |           [Chase Bliss Audio & Meris CXM 1978][Chase Bliss Audio & Meris CXM 1978]           |          ![Chase Bliss Audio & Meris CXM 1978](/Equipment/chase-bliss-audio-and-meris-cxm-1978.jpg)          |
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
 [Wurlitzer 200A]: https://www.dehlimusikk.no/equipment/instruments/wurlitzer-200a/
