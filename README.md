@@ -6,7 +6,7 @@ The instrument includes both tonal samples and mechanical noise samples. It also
 
 ## Release notes
 
-### Version 2.0.0 (2026-07-18)
+### Version 2.0.0 (2026-07-19)
 
 - Added a plugin version. See the section "The plugin version".
 - Effect bindings now use effectIndex, and a misleading type="percent" attribute was removed.
