@@ -6528,6 +6528,7 @@
       "ampEnvEnabled": false,
       "effects": [
         {
+          "id": "grp_3_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -19390,6 +19391,7 @@
       "ampEnvEnabled": false,
       "effects": [
         {
+          "id": "grp_7_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -25754,6 +25756,7 @@
       "pitchKeyTrack": false,
       "effects": [
         {
+          "id": "grp_8_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -25855,6 +25858,7 @@
       "pitchKeyTrack": false,
       "effects": [
         {
+          "id": "grp_9_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -25960,6 +25964,7 @@
       "pitchKeyTrack": false,
       "effects": [
         {
+          "id": "grp_10_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -26061,6 +26066,7 @@
       "pitchKeyTrack": false,
       "effects": [
         {
+          "id": "grp_11_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -26198,9 +26204,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 0,
-          "position": 0
+          "translationOutputMax": 1.0
         },
         {
           "type": "amp",
@@ -26210,9 +26214,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 1,
-          "position": 1
+          "translationOutputMax": 1.0
         },
         {
           "type": "amp",
@@ -26222,9 +26224,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 2,
-          "position": 2
+          "translationOutputMax": 1.0
         },
         {
           "type": "amp",
@@ -26234,9 +26234,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 3,
-          "position": 3
+          "translationOutputMax": 1.0
         }
       ]
     }
@@ -26246,7 +26244,6 @@
       "cc": 1,
       "parameter": "MOD_AMOUNT",
       "targetId": "ctl_3",
-      "controlIndex": 3,
       "normMin": 0.0,
       "normMax": 1.0
     }
@@ -26393,28 +26390,22 @@
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_3",
+                "targetId": "grp_3_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -24.0,
-                "translationOutputMax": 2.0,
-                "effectIndex": 0,
-                "groupIndex": 3,
-                "position": 0
+                "translationOutputMax": 2.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_7",
+                "targetId": "grp_7_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -24.0,
-                "translationOutputMax": 2.0,
-                "effectIndex": 0,
-                "groupIndex": 7,
-                "position": 0
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -26444,54 +26435,42 @@
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_8",
+                "targetId": "grp_8_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -48.0,
-                "translationOutputMax": -15.0,
-                "effectIndex": 0,
-                "groupIndex": 8,
-                "position": 0
+                "translationOutputMax": -15.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_9",
+                "targetId": "grp_9_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -48.0,
-                "translationOutputMax": -15.0,
-                "effectIndex": 0,
-                "groupIndex": 9,
-                "position": 0
+                "translationOutputMax": -15.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_10",
+                "targetId": "grp_10_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -48.0,
-                "translationOutputMax": -15.0,
-                "effectIndex": 0,
-                "groupIndex": 10,
-                "position": 0
+                "translationOutputMax": -15.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_11",
+                "targetId": "grp_11_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -48.0,
-                "translationOutputMax": -15.0,
-                "effectIndex": 0,
-                "groupIndex": 11,
-                "position": 0
+                "translationOutputMax": -15.0
               }
             ]
           },
@@ -26525,8 +26504,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 0.68,
-                "position": 0
+                "translationOutputMax": 0.68
               }
             ]
           },
@@ -26559,8 +26537,7 @@
                 "parameter": "FX_MIX",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "effectIndex": 0
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -26593,8 +26570,7 @@
                 "parameter": "FX_MIX",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "effectIndex": 3
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -26656,7 +26632,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": false
                   },
                   {
@@ -26665,7 +26640,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": false
                   },
                   {
@@ -26674,7 +26648,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "0"
                   }
                 ]
@@ -26689,7 +26662,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": true
                   },
                   {
@@ -26698,7 +26670,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "FX_DRIVE",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "4.0"
                   },
                   {
@@ -26707,7 +26678,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "FX_OUTPUT_LEVEL",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "0.41"
                   },
                   {
@@ -26716,7 +26686,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": true
                   },
                   {
@@ -26725,7 +26694,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "1"
                   },
                   {
@@ -26734,7 +26702,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "ir:amp_japanese"
                   }
                 ]
@@ -26749,7 +26716,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": true
                   },
                   {
@@ -26758,7 +26724,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "FX_DRIVE",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "10.0"
                   },
                   {
@@ -26767,7 +26732,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "FX_OUTPUT_LEVEL",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "0.20"
                   },
                   {
@@ -26776,7 +26740,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": true
                   },
                   {
@@ -26785,7 +26748,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "1"
                   },
                   {
@@ -26794,7 +26756,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "ir:amp_american"
                   }
                 ]
@@ -26809,7 +26770,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": true
                   },
                   {
@@ -26818,7 +26778,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "FX_DRIVE",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "11.0"
                   },
                   {
@@ -26827,7 +26786,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "FX_OUTPUT_LEVEL",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "0.10"
                   },
                   {
@@ -26836,7 +26794,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": true
                   },
                   {
@@ -26845,7 +26802,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "1"
                   },
                   {
@@ -26854,7 +26810,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "ir:amp_british"
                   }
                 ]
@@ -26869,7 +26824,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": true
                   },
                   {
@@ -26878,7 +26832,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "FX_DRIVE",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "15.0"
                   },
                   {
@@ -26887,7 +26840,6 @@
                     "targetId": "fx_wave_shaper",
                     "parameter": "FX_OUTPUT_LEVEL",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "0.07"
                   },
                   {
@@ -26896,7 +26848,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": true
                   },
                   {
@@ -26905,7 +26856,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "1"
                   },
                   {
@@ -26914,7 +26864,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 2,
                     "translationValue": "ir:amp_norwegian"
                   }
                 ]

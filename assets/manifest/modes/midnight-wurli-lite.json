@@ -2017,6 +2017,7 @@
       "ampEnvEnabled": false,
       "effects": [
         {
+          "id": "grp_3_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -4672,6 +4673,7 @@
       "ampEnvEnabled": false,
       "effects": [
         {
+          "id": "grp_7_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -5340,6 +5342,7 @@
       "pitchKeyTrack": false,
       "effects": [
         {
+          "id": "grp_8_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -5441,6 +5444,7 @@
       "pitchKeyTrack": false,
       "effects": [
         {
+          "id": "grp_9_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -5546,6 +5550,7 @@
       "pitchKeyTrack": false,
       "effects": [
         {
+          "id": "grp_10_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -5647,6 +5652,7 @@
       "pitchKeyTrack": false,
       "effects": [
         {
+          "id": "grp_11_fx_gain",
           "type": "gain",
           "enabled": true,
           "gain": 1.0
@@ -5748,9 +5754,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 0,
-          "position": 0
+          "translationOutputMax": 1.0
         },
         {
           "type": "amp",
@@ -5760,9 +5764,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 1,
-          "position": 1
+          "translationOutputMax": 1.0
         },
         {
           "type": "amp",
@@ -5772,9 +5774,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 2,
-          "position": 2
+          "translationOutputMax": 1.0
         },
         {
           "type": "amp",
@@ -5784,9 +5784,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 3,
-          "position": 3
+          "translationOutputMax": 1.0
         }
       ]
     }
@@ -5796,7 +5794,6 @@
       "cc": 1,
       "parameter": "MOD_AMOUNT",
       "targetId": "ctl_3",
-      "controlIndex": 3,
       "normMin": 0.0,
       "normMax": 1.0
     }
@@ -5943,28 +5940,22 @@
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_3",
+                "targetId": "grp_3_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -24.0,
-                "translationOutputMax": 2.0,
-                "effectIndex": 0,
-                "groupIndex": 3,
-                "position": 0
+                "translationOutputMax": 2.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_7",
+                "targetId": "grp_7_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -24.0,
-                "translationOutputMax": 2.0,
-                "effectIndex": 0,
-                "groupIndex": 7,
-                "position": 0
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -5994,54 +5985,42 @@
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_8",
+                "targetId": "grp_8_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -48.0,
-                "translationOutputMax": -15.0,
-                "effectIndex": 0,
-                "groupIndex": 8,
-                "position": 0
+                "translationOutputMax": -15.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_9",
+                "targetId": "grp_9_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -48.0,
-                "translationOutputMax": -15.0,
-                "effectIndex": 0,
-                "groupIndex": 9,
-                "position": 0
+                "translationOutputMax": -15.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_10",
+                "targetId": "grp_10_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -48.0,
-                "translationOutputMax": -15.0,
-                "effectIndex": 0,
-                "groupIndex": 10,
-                "position": 0
+                "translationOutputMax": -15.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_11",
+                "targetId": "grp_11_fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": -48.0,
-                "translationOutputMax": -15.0,
-                "effectIndex": 0,
-                "groupIndex": 11,
-                "position": 0
+                "translationOutputMax": -15.0
               }
             ]
           },
@@ -6075,8 +6054,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 0.68,
-                "position": 0
+                "translationOutputMax": 0.68
               }
             ]
           }
