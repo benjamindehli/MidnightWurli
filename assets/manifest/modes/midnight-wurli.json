@@ -26257,6 +26257,10 @@
     "cropTop": 42,
     "layoutMode": "relative",
     "bgMode": "top_left",
+    "menuPopupBackground": "FF454148",
+    "menuPopupText": "FFD7D2DB",
+    "menuPopupHighlight": "FF231F25",
+    "menuPopupHighlightText": "FFD7D2DB",
     "tabs": [
       {
         "name": "main",

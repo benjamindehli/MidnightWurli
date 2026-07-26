@@ -8,6 +8,12 @@
         "Midnight Wurli (Lite)": "Resources/overlay_lite.png"
     },
     "overlayScope": "instrument",
+    "menuPopupColors": {
+        "background": "FF454148",
+        "text": "FFD7D2DB",
+        "highlight": "FF231F25",
+        "highlightText": "FFD7D2DB"
+    },
     "keyboardColors": {
         "default": [{ "loNote": 33, "hiNote": 96, "color": "none" }]
     }
