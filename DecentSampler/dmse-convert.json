@@ -3,6 +3,11 @@
     "normalizeIr": false,
     "reverbGain": -10,
     "cropTop": { "Midnight Wurli": 42, "Midnight Wurli (Lite)": 76 },
+    "overlay": {
+        "Midnight Wurli": "Resources/overlay_default.png",
+        "Midnight Wurli (Lite)": "Resources/overlay_lite.png"
+    },
+    "overlayScope": "instrument",
     "keyboardColors": {
         "default": [{ "loNote": 33, "hiNote": 96, "color": "none" }]
     }

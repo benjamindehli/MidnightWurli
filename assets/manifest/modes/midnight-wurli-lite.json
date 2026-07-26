@@ -5800,6 +5800,8 @@
   ],
   "ui": {
     "background": "img:background_lite",
+    "overlay": "img:overlay_lite",
+    "overlayScope": "instrument",
     "width": 812,
     "height": 375,
     "cropTop": 76,
