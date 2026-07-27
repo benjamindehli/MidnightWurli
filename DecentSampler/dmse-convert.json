@@ -9,9 +9,9 @@
     },
     "overlayScope": "instrument",
     "menuPopupColors": {
-        "background": "FF454148",
+        "background": "FF231F25",
         "text": "FFD7D2DB",
-        "highlight": "FF231F25",
+        "highlight": "FF454148",
         "highlightText": "FFD7D2DB"
     },
     "keyboardColors": {

@@ -5807,9 +5807,9 @@
     "cropTop": 76,
     "layoutMode": "relative",
     "bgMode": "top_left",
-    "menuPopupBackground": "FF454148",
+    "menuPopupBackground": "FF231F25",
     "menuPopupText": "FFD7D2DB",
-    "menuPopupHighlight": "FF231F25",
+    "menuPopupHighlight": "FF454148",
     "menuPopupHighlightText": "FFD7D2DB",
     "tabs": [
       {
