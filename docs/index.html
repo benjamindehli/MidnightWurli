@@ -33,22 +33,37 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://benjamindehli.github.io/MidnightWurli/#website",
+      "name": "Midnight Wurli",
+      "url": "https://benjamindehli.github.io/MidnightWurli/",
+      "description": "Product page and documentation for Midnight Wurli, a sample instrument by Dehli Musikk.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
+      },
+      "publisher": {
+        "@id": "https://www.dehlimusikk.no/"
+      },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "about": {
+        "@id": "https://www.dehlimusikk.no/products/midnight-wurli/#product"
+      },
+      "sameAs": "https://github.com/benjamindehli/MidnightWurli"
+    },
+    {
       "@type": "SoftwareApplication",
-      "@id": "https://store.dehlimusikk.no/l/midnight-wurli",
+      "@id": "https://www.dehlimusikk.no/products/midnight-wurli/#product",
       "name": "Midnight Wurli",
       "description": "Midnight Wurli is a sampled Wurlitzer 200A electric piano instrument that focuses on capturing the character of the instrument played softly at low volume.",
       "url": "https://benjamindehli.github.io/MidnightWurli/",
       "applicationCategory": "MultimediaApplication",
       "applicationSubCategory": "Sample library / virtual instrument",
       "author": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://www.dehlimusikk.no/"
       },
       "operatingSystem": "macOS, Windows, Linux",
       "softwareVersion": "2.1.0",
@@ -56,25 +71,18 @@
       "image": "https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli.webp",
       "screenshot": [
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli-lite.webp",
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli-lite.webp",
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-proximity.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-proximity.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-mechanics.webp",
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-mechanics.webp",
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-tremolo.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-tremolo.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-amplifier.webp",
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-amplifier.webp",
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-echo.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-echo.webp",
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-room.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-room.webp",
-        "https://benjamindehli.github.io/MidnightWurli/img/screenshots-volume.webp",
         "https://benjamindehli.github.io/MidnightWurli/img/screenshots-volume.webp"
       ],
       "sameAs": [
+        "https://www.dehlimusikk.no/products/midnight-wurli/",
+        "https://www.dehlimusikk.no/en/products/midnight-wurli/",
         "https://store.dehlimusikk.no/l/midnight-wurli",
         "https://dehlimusikk.gumroad.com/l/midnight-wurli",
         "https://www.cylex.no/bedrift-produkt/midnight+wurli_266062.html",
@@ -95,6 +103,18 @@
           "description": "Pay what you want, from $9.99"
         }
       }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f",
+      "name": "Benjamin Dehli",
+      "url": "https://www.dehlimusikk.no/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dehlimusikk.no/",
+      "name": "Dehli Musikk",
+      "url": "https://www.dehlimusikk.no/"
     }
   ]
 }
