@@ -1,0 +1,272 @@
+# Midnight Wurli
+
+> Midnight Wurli: a Wurlitzer 200A played softly, sampled from the line out and a contact microphone that captures key clicks and pedal noise.
+
+A sample instrument by Dehli Musikk. This is the markdown version of https://benjamindehli.github.io/MidnightWurli/, generated from the repository README.
+
+## Key facts
+
+- Plugin: VST3, AU and Standalone for macOS
+- Decent Sampler: macOS, Windows and Linux
+- Version: 2.1.0 (2026-08-01)
+- Price: Pay what you want, from $9.99
+- Sample rate: 48 kHz
+- Bit depth: 24 bit
+- Samples: 2 332 files
+- Sample content: 1.20 GB
+
+## Links
+
+- [Product page](https://benjamindehli.github.io/MidnightWurli/)
+- [Midnight Wurli at Dehli Musikk](https://www.dehlimusikk.no/en/products/midnight-wurli/)
+- [Get it](https://store.dehlimusikk.no/l/midnight-wurli)
+- [Source on GitHub](https://github.com/benjamindehli/MidnightWurli)
+- [Wurlitzer Electric Piano plugin preset for Decent Sampler (Midnight Wurli)](https://benjamindehli.github.io/MidnightWurli/video/)
+
+## Frequently asked questions
+
+### What is Midnight Wurli?
+
+Midnight Wurli: a Wurlitzer 200A played softly, sampled from the line out and a contact microphone that captures key clicks and pedal noise.
+
+### Which formats does Midnight Wurli come in?
+
+Midnight Wurli is available as VST3, AU and Standalone for macOS, and as a Decent Sampler library for macOS, Windows and Linux.
+
+### Does Midnight Wurli run on Windows or Linux?
+
+The plugin version is released for macOS only. On Windows and Linux, the Decent Sampler version of Midnight Wurli covers the same instrument.
+
+### Does Midnight Wurli work in Logic Pro and Ableton Live?
+
+Yes. Midnight Wurli is available as both VST3 and AU, so it loads in any macOS host that reads those formats, including Logic Pro, Ableton Live, Cubase, Reaper and Studio One.
+
+### Do I need Decent Sampler to use Midnight Wurli?
+
+Not for the plugin version. It is a self-contained instrument with its samples embedded, so there are no external files to install or locate. The Decent Sampler version is a sample library, and that one needs the free Decent Sampler application.
+
+### What sample rate and bit depth is Midnight Wurli recorded at?
+
+The samples are 48 kHz, 24 bit.
+
+### How many samples does Midnight Wurli contain?
+
+2332 sample files, 1.20 GB of audio. Impulse responses for the effects are not counted in that figure.
+
+### How much does Midnight Wurli cost?
+
+Midnight Wurli is pay what you want, from $9.99, so the price shown is the minimum rather than a fixed one.
+
+### Where can I download Midnight Wurli?
+
+From the Dehli Musikk store at https://store.dehlimusikk.no/l/midnight-wurli.
+
+### Is the source code for Midnight Wurli available?
+
+Yes. The repository is public at https://github.com/benjamindehli/MidnightWurli and licensed under GPL-3.0. The audio files are not in the repository, because the samples are a paid product.
+
+---
+
+Midnight Wurli is a sampled Wurlitzer 200A electric piano instrument that focuses on capturing the character of the instrument played softly at low volume. It uses two signal sources: the direct line out from the Wurlitzer and a contact microphone attached to the instrument. The contact microphone captures the mechanical noises, such as key clicks, release sounds, and pedal movements which results in a more intimate, close-up sound.
+
+The instrument includes both tonal samples and mechanical noise samples. It also features built-in effects including tremolo, tape echo, room reverb, and multiple amplifier impulse responses. Each key includes velocity-based round robins to enhance realism.
+
+## Release notes
+
+### Version 2.1.0 (2026-08-01)
+
+The changes in this release apply to the plugin version only. The DecentSampler version is unchanged.
+
+- Added a translucent overlay graphic on top of the interface.
+- Keys that are hovered or held on the keyboard are now shaded in a neutral way instead of turning yellow:
+  - White keys turn darker.
+  - Black keys turn brighter.
+- The computer keyboard keeps playing notes even while you adjust a control with the mouse.
+- The dropdown menus inside the interface now use colors that match the instrument.
+
+### Version 2.0.0 (2026-07-19)
+
+- Added a plugin version. See the section "The plugin version".
+- Effect bindings now use effectIndex, and a misleading type="percent" attribute was removed.
+- Fixed the loNote value for the keyboard colors.
+
+### Version 1.0.0 (2025-08-13)
+
+- First version released.
+
+## Included formats
+
+- VST3 (macOS)
+- AU (macOS)
+- Standalone application (macOS)
+- Decent Sampler (macOS, Windows and Linux)
+
+The plugin version is currently released for macOS only.
+Windows and Linux versions are planned.
+Until then, the Decent Sampler version covers those platforms.
+
+## The plugin version
+
+The plugin is a self-contained instrument, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+Only the samples for the selected preset are loaded into memory, and a fresh instance lets you choose which preset to load before anything is decoded.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
+
+## The Decent Sampler version
+
+This version of Midnight Wurli is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
+
+## Technical specification
+
+|                                    | Sample rate | Bit depth | Channels   | Number of files | File size |
+| ---------------------------------: | ----------: | --------: | ---------- | --------------: | --------: |
+|                        **Samples** |      48 kHz |    24 bit | 1 (mono)   |            2332 |   1.20 GB |
+| **Impulse responses (Amplifiers)** |      48 kHz |    24 bit | 1 (mono)   |               4 | 356.00 KB |
+|    **Impulse responses (Effects)** |      48 kHz |    24 bit | 2 (stereo) |               2 | 481.00 KB |
+
+## Instrument Presets
+
+### Midnight Wurli
+
+|![Midnight Wurli](https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli.webp)|
+|:--:|
+|Midnight Wurli|
+
+- Full version of the instrument with 36 samples per key.
+- 18 note-on samples and 18 release samples per key.
+- Round robin samples per velocity group to avoid repetition.
+- Includes mechanical noises (release and damper).
+- Includes all six impulse responses: four amplifiers, one echo, and one room reverb.
+- 28 damper pedal samples.
+
+### Midnight Wurli (Lite)
+
+|![Midnight Wurli (Lite)](https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli-lite.webp)|
+|:--:|
+|Midnight Wurli (Lite)|
+
+- A lightweight version of the instrument designed for lower CPU and RAM usage.
+- Contains a single sample per velocity group for each key (no round robin).
+- Impulse responses (amplifiers, echo, room) are disabled.
+- Still includes basic mechanical sounds but with simplified behavior.
+
+## User Interface
+
+### Proximity
+
+|![Mix controls for proximity](https://benjamindehli.github.io/MidnightWurli/img/screenshots-proximity.webp)|
+|:--:|
+|Mix controls for proximity|
+
+- Crossfades between the direct line out and contact microphone audio.
+- Turning the knob toward "Close" emphasizes the contact mic (mechanical sounds).
+- Turning toward "Distant" emphasizes the clean line out signal.
+- Affects the balance of both tonal and mechanical elements.
+
+### Mechanics
+
+|![Volume controls for the mechanical noise](https://benjamindehli.github.io/MidnightWurli/img/screenshots-mechanics.webp)|
+|:--:|
+|Volume controls for the mechanical noise|
+
+#### Release
+
+- Controls the volume of the key release noise.
+- The audio is affected by the current setting of the Proximity knob.
+- Represents the subtle mechanical sound of a key returning after being released.
+
+#### Damper
+
+- Controls the volume of the damper (sustain pedal) noise.
+- Includes pedal down and pedal up samples.
+- Also influenced by the Proximity setting.
+
+### Tremolo
+
+|![Controls for the tremolo depth](https://benjamindehli.github.io/MidnightWurli/img/screenshots-tremolo.webp)|
+|:--:|
+|Controls for the tremolo depth|
+
+- Controls the depth of the built-in tremolo effect, which is named vibrato on the original Wurlitzer 200A.
+- Tremolo is applied after sample playback and before amplifier, tape echo and room reverb, emulating the original instrument’s modulation circuit.
+
+### Amplifier
+
+|![Amplifier select list](https://benjamindehli.github.io/MidnightWurli/img/screenshots-amplifier.webp)|
+|:--:|
+|Amplifier select list|
+
+- Selects one of five amplifier settings:
+  - Direct (bypasses all amp simulation)
+  - American (Fender Twin Reverb)
+  - British (Vox AC15H1TV)
+  - Japanese (Roland JC-120 Jazz Chorus)
+  - Norwegian (Tandberg Model 2 T)
+- All amplifier impulse responses were recorded with a Shure SM57 and a Royer R-121 microphone.
+
+### Echo
+
+|![Mix controls for tape echo](https://benjamindehli.github.io/MidnightWurli/img/screenshots-echo.webp)|
+|:--:|
+|Mix controls for tape echo|
+
+- Blends in a tape echo impulse response with a slapback delay characteristic.
+- Positioned before the amplifier in the signal chain.
+
+### Room
+
+|![Mix controls for room reverb](https://benjamindehli.github.io/MidnightWurli/img/screenshots-room.webp)|
+|:--:|
+|Mix controls for room reverb|
+
+- Adds stereo room reverb via an impulse response.
+- Positioned after the amplifier in the signal chain.
+
+### Volume
+
+|![Controls for master volume](https://benjamindehli.github.io/MidnightWurli/img/screenshots-volume.webp)|
+|:--:|
+|Controls for master volume|
+
+- Master volume control for the entire instrument.
+- Applied after all effects in the signal path.
+
+## Equipment used
+
+|                                             Name                                             |                                                    Image                                                     |
+| :------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+|                               [Wurlitzer 200A][Wurlitzer 200A]                               |                               ![Wurlitzer 200A](https://benjamindehli.github.io/MidnightWurli/img/equipment-wurlitzer-200a.webp)                               |
+|           [Hairball Audio FET/RACK Revision D][Hairball Audio FET/RACK Revision D]           |           ![Hairball Audio FET/RACK Revision D](https://benjamindehli.github.io/MidnightWurli/img/equipment-hairball-audio-fet-rack-revision-d.webp)           |
+| [DIY Recording Equipment G Bus VCA Compressor][DIY Recording Equipment G Bus VCA Compressor] | ![DIY Recording Equipment G Bus VCA Compressor](https://benjamindehli.github.io/MidnightWurli/img/equipment-diy-recording-equipment-g-bus-vca-compressor.webp) |
+|                          [Handsome Audio Zulu][Handsome Audio Zulu]                          |                          ![Handsome Audio Zulu](https://benjamindehli.github.io/MidnightWurli/img/equipment-handsome-audio-zulu.webp)                          |
+|                           [Fender Twin Reverb][Fender Twin Reverb]                           |                           ![Fender Twin Reverb](https://benjamindehli.github.io/MidnightWurli/img/equipment-fender-twin-reverb.webp)                           |
+|                                 [Vox AC15H1TV][Vox AC15H1TV]                                 |                                 ![Vox AC15H1TV](https://benjamindehli.github.io/MidnightWurli/img/equipment-vox-ac15h1tv.webp)                                 |
+|                    [Roland JC-120 Jazz Chorus][Roland JC-120 Jazz Chorus]                    |                    ![Roland JC-120 Jazz Chorus](https://benjamindehli.github.io/MidnightWurli/img/equipment-roland-jc-120-jazz-chorus.webp)                    |
+|                           [Tandberg Model 2 T][Tandberg Model 2 T]                           |                           ![Tandberg Model 2 T](https://benjamindehli.github.io/MidnightWurli/img/equipment-tandberg-model-2-t.webp)                           |
+|                      [Fulltone Tube Tape Echo][Fulltone Tube Tape Echo]                      |                      ![Fulltone Tube Tape Echo](https://benjamindehli.github.io/MidnightWurli/img/equipment-fulltone-tube-tape-echo.webp)                      |
+|           [Chase Bliss Audio & Meris CXM 1978][Chase Bliss Audio & Meris CXM 1978]           |          ![Chase Bliss Audio & Meris CXM 1978](https://benjamindehli.github.io/MidnightWurli/img/equipment-chase-bliss-audio-and-meris-cxm-1978.webp)          |
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
+
+[Gumroad profile]: https://store.dehlimusikk.no/
+[Decent Sampler guide]: https://www.decentsamples.com/how-to-use-decent-sampler/
+[Wurlitzer 200A]: https://www.dehlimusikk.no/equipment/instruments/wurlitzer-200a/
+[Hairball Audio FET/RACK Revision D]: https://www.dehlimusikk.no/equipment/effects/hairball-audio-fet-rack-revision-d/
+[DIY Recording Equipment G Bus VCA Compressor]: https://www.dehlimusikk.no/effects/diy-recording-equipment-g-bus-vca-compressor/
+[Handsome Audio Zulu]: https://www.dehlimusikk.no/equipment/effects/handsome-audio-zulu/
+[Fender Twin Reverb]: https://www.dehlimusikk.no/equipment/amplifiers/fender-twin-reverb/
+[Vox AC15H1TV]: https://www.dehlimusikk.no/equipment/amplifiers/vox-ac15h1tv/
+[Roland JC-120 Jazz Chorus]: https://www.dehlimusikk.no/equipment/amplifiers/roland-jc-120-jazz-chorus/
+[Tandberg Model 2 T]: https://www.dehlimusikk.no/equipment/amplifiers/tandberg-model-2-t/
+[Fulltone Tube Tape Echo]: https://www.dehlimusikk.no/equipment/effects/fulltone-tube-tape-echo/
+[Chase Bliss Audio & Meris CXM 1978]: https://www.dehlimusikk.no/equipment/effects/chase-bliss-audio-and-meris-cxm-1978/
