@@ -1,9 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/MidnightWurli/</loc>
     <lastmod>2026-09-17</lastmod>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-midnight-wurli-lite.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-proximity.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-mechanics.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-tremolo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-amplifier.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-echo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-room.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/screenshots-volume.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-wurlitzer-200a.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-hairball-audio-fet-rack-revision-d.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-diy-recording-equipment-g-bus-vca-compressor.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-handsome-audio-zulu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-fender-twin-reverb.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-vox-ac15h1tv.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-roland-jc-120-jazz-chorus.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-tandberg-model-2-t.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-fulltone-tube-tape-echo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MidnightWurli/img/equipment-chase-bliss-audio-and-meris-cxm-1978.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://benjamindehli.github.io/MidnightWurli/video/</loc>
