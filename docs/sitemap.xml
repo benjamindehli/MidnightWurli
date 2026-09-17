@@ -3,11 +3,11 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/MidnightWurli/</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-17</lastmod>
   </url>
   <url>
     <loc>https://benjamindehli.github.io/MidnightWurli/video/</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/LB-YDVqQh7s/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Wurlitzer Electric Piano plugin preset for Decent Sampler (Midnight Wurli)</video:title>
