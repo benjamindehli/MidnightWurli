@@ -8,6 +8,9 @@
         "Midnight Wurli (Lite)": "Resources/overlay_lite.png"
     },
     "overlayScope": "instrument",
+    "labels": {
+        "menu_0": "Amplifier"
+    },
     "menuPopupColors": {
         "background": "FF231F25",
         "text": "FFD7D2DB",

@@ -26619,6 +26619,7 @@
         "menus": [
           {
             "id": "menu_0",
+            "label": "Amplifier",
             "rect": {
               "x": 234,
               "y": 239,
