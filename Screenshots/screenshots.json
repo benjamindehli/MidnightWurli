@@ -1,0 +1,144 @@
+{
+    "scale": 2,
+    "shots": [
+        {
+            "file": "amplifier.png",
+            "mode": "Midnight Wurli",
+            "crop": {
+                "x": 226,
+                "y": 180,
+                "width": 117,
+                "height": 74
+            },
+            "scale": 4.71,
+            "overlay": false,
+            "set": {
+                "menu_0": 4,
+                "Echo mix": 2.05,
+                "Room mix": 3.4
+            }
+        },
+        {
+            "file": "echo.png",
+            "mode": "Midnight Wurli",
+            "crop": {
+                "x": 353,
+                "y": 168,
+                "width": 83,
+                "height": 86
+            },
+            "scale": 4.71,
+            "overlay": false,
+            "set": {
+                "menu_0": 4,
+                "Echo mix": 2.05,
+                "Room mix": 3.4
+            }
+        },
+        {
+            "file": "mechanics.png",
+            "mode": "Midnight Wurli",
+            "crop": {
+                "x": 198,
+                "y": 32,
+                "width": 165,
+                "height": 97
+            },
+            "scale": 4.71,
+            "overlay": false,
+            "set": {
+                "menu_0": 4,
+                "Echo mix": 2.05,
+                "Room mix": 3.4
+            }
+        },
+        {
+            "file": "midnight-wurli-lite.png",
+            "mode": "Midnight Wurli (Lite)",
+            "window": true,
+            "set": {
+                "Mod wheel": 64
+            }
+        },
+        {
+            "file": "midnight-wurli.png",
+            "mode": "Midnight Wurli",
+            "window": true,
+            "set": {
+                "menu_0": 4,
+                "Echo mix": 2.05,
+                "Room mix": 3.4,
+                "Mod wheel": 64
+            }
+        },
+        {
+            "file": "proximity.png",
+            "mode": "Midnight Wurli",
+            "crop": {
+                "x": 54,
+                "y": 32,
+                "width": 139,
+                "height": 97
+            },
+            "scale": 4.71,
+            "overlay": false,
+            "set": {
+                "menu_0": 4,
+                "Echo mix": 2.05,
+                "Room mix": 3.4,
+                "Proximity": 75
+            }
+        },
+        {
+            "file": "room.png",
+            "mode": "Midnight Wurli",
+            "crop": {
+                "x": 430,
+                "y": 168,
+                "width": 83,
+                "height": 86
+            },
+            "scale": 4.71,
+            "overlay": false,
+            "set": {
+                "menu_0": 4,
+                "Echo mix": 2.05,
+                "Room mix": 3.4
+            }
+        },
+        {
+            "file": "tremolo.png",
+            "mode": "Midnight Wurli",
+            "crop": {
+                "x": 369,
+                "y": 32,
+                "width": 139,
+                "height": 97
+            },
+            "scale": 4.71,
+            "overlay": false,
+            "set": {
+                "menu_0": 4,
+                "Echo mix": 2.05,
+                "Room mix": 3.4
+            }
+        },
+        {
+            "file": "volume.png",
+            "mode": "Midnight Wurli",
+            "crop": {
+                "x": 508,
+                "y": 168,
+                "width": 83,
+                "height": 86
+            },
+            "scale": 4.71,
+            "overlay": false,
+            "set": {
+                "menu_0": 4,
+                "Echo mix": 2.05,
+                "Room mix": 3.4
+            }
+        }
+    ]
+}
