@@ -28,4 +28,4 @@ Effektene følger den opprinnelige signalveien:
 - Tremolo modellert etter instrumentets egen modulasjonskrets.
 - Fire impulsresponser fra forsterkere: American (Fender Twin Reverb), British (Vox AC15H1TV), Japanese (Roland JC-120) og Norwegian (Tandberg Model 2 T).
 - Impulsresponser for båndekko og romklang i stereo.
-- 2332 sampler i 48 kHz / 24 bit, bygd inn tapsfritt (1,20 GB kildebibliotek).
+- 2332 sampler i 48 kHz / 24 bit, lagret tapsfritt (1,20 GB kildebibliotek).

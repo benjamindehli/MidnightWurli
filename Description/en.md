@@ -28,4 +28,4 @@ The effects follow the original signal path:
 - Tremolo modelled on the instrument's own modulation circuit.
 - Four amplifier impulse responses: American (Fender Twin Reverb), British (Vox AC15H1TV), Japanese (Roland JC-120) and Norwegian (Tandberg Model 2 T).
 - Tape echo and stereo room reverb impulse responses.
-- 2332 samples at 48 kHz / 24-bit, embedded losslessly (1.20 GB source library).
+- 2332 samples at 48 kHz / 24-bit, stored losslessly (1.20 GB source library).
